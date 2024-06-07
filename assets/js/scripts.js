@@ -67,14 +67,9 @@ window.addEventListener('DOMContentLoaded', event => {
         setTimeout(function(){ div.style.display = "none"; }, 600);
       }
     }
- });
-
-//     document.addEventListener("DOMContentLoaded", function() {
-//         const button = document.getElementById("SubmitButton");
-//         button.addEventListener("click", function() {
-//             alert("You have booked now, please check your account regulary to get notification from admin!");
-//         });
-//     });
+        
+ })
+});
 
 
 
