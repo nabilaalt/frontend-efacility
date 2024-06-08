@@ -50,29 +50,30 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-    document.getElementById('bookingForm').addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent form submission
-        
-        // Display the notification
-        var alertBox = document.getElementById('alertBox');
-        alertBox.classList.add('show');
-        
-    var close = document.getElementsByClassName("closebtn");
-    var i;
-    
-    for (i = 0; i < close.length; i++) {
-      close[i].onclick = function(){
-        var div = this.parentElement;
-        div.style.opacity = "0";
-        setTimeout(function(){ div.style.display = "none"; }, 600);
-      }
-    }
-        
- })
 });
 
+//     document.getElementById('bookingForm').addEventListener('submit', function(event) {
+//         event.preventDefault(); // Prevent form submission
+        
+//         // Display the notification
+//         var alertBox = document.getElementById('alertBox');
+//         alertBox.classList.add('show');
+        
+//     var close = document.getElementsByClassName("closebtn");
+//     var i;
+    
+//     for (i = 0; i < close.length; i++) {
+//       close[i].onclick = function(){
+//         var div = this.parentElement;
+//         div.style.opacity = "0";
+//         setTimeout(function(){ div.style.display = "none"; }, 600);
+//       }
+//     }
+//  });
 
-
- 
-
-  
+//     document.addEventListener("DOMContentLoaded", function() {
+//         const button = document.getElementById("SubmitButton");
+//         button.addEventListener("click", function() {
+//             alert("You have booked now, please check your account regulary to get notification from admin!");
+//         });
+//     });
