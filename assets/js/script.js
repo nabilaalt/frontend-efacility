@@ -12,3 +12,17 @@ document.getElementById('reservationForm').addEventListener('submit', function(e
         window.location.href = 'index.html';
     }
 });
+
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            // Simple client-side authentication for demonstration purposes
+            if (email === 'email' && password === 'pass') {
+                localStorage.setItem('isLoggedIn', 'true');
+                window.location.href = 'index.html';
+            } else {
+                document.getElementById('errorMessage').innerText = 'Invalid username or password';
+            }
+        });

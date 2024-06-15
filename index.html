@@ -58,10 +58,20 @@ https://templatemo.com/tm-570-chain-app-dev
   <!-- ***** Preloader End ***** -->
 
   <!-- ***** Header Area Start ***** -->
+<!--    
+<div class="gradient-button"><a href="login.html"><i class="fa fa-sign-in-alt"></i> Sign In </a></div></li>   -->
+<!-- <script>
+  if (!localStorage.getItem('isLoggedIn')) {
+      window.location.href = 'index.html';
+  }
+
+</script> -->
+
   <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
     <div class="container">
       <div class="row">
         <div class="col-12">
+          
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
@@ -75,12 +85,22 @@ https://templatemo.com/tm-570-chain-app-dev
               <li class="scroll-to-section"><a href="#facilities">Facilities</a></li>
               <li class="scroll-to-section"><a href="history.html">History</a></li>
               <li class="scroll-to-section"><a href="#Contact">Contact</a></li>
-              <li><div class="gradient-button"><a href="login.html"><i class="fa fa-sign-in-alt"></i> Sign In </a></div></li> 
-            </ul>        
+              <!-- <li><div class="gradient-button"><a href="login.html"><i class="fa fa-sign-in-alt"></i> Sign In </a></div></li>  -->
+              <li class="nav-item dropdown">
+                <a data-mdb-dropdown-init class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdownMenuLink"
+                  role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                  <img src="assets/images/profil.JPG" class="rounded-circle" height="50" alt="Avatar" loading="lazy" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="profil.html">My profile</a></li>
+                  <li><a class="dropdown-item" href="#history">History</a></li>
+                  <li><a class="dropdown-item" href="#" id="logoutButton" style="display: none;">Logout</a></li>
+                </ul>
+              </li>
+            </ul>
             <a class='menu-trigger'>
-                <span>Menu</span>
+              <span>Menu</span>
             </a>
-            <!-- ***** Menu End ***** -->
           </nav>
         </div>
       </div>
@@ -204,7 +224,7 @@ https://templatemo.com/tm-570-chain-app-dev
                   </a>
                   <div class="facilities-caption">
                       <div class="facilitiesThreads"></div>
-                      <div class="facilities-caption-subheading text-muted">Anwar Musadad</div>
+                      <div class="facilities-caption-subheading text-muted">Abdjan Soelaiman</div>
                   </div>
               </div>
 
