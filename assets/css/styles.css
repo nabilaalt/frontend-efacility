@@ -11333,6 +11333,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.right-image {
+  margin-left: 70px ; 
+}
+
 /* .alert {
   padding: 20px;
   background-color: #f44336;
@@ -11357,3 +11361,23 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: black;
   transition: 0.3s;
 } */
+
+.header-area .main-nav .left-button {
+  line-height: 100px;
+  float: right;
+  -webkit-transition: all 0.3s ease 0s;
+}
+
+
+.left-button {
+  display: auto; 
+  align-items: center;  
+  text-decoration: none; 
+}
+
+.left-button img {
+  width: 50px;  /* Adjust the width */
+  height: 50px; /* Adjust the height */
+  margin-right: 5px; /* Adds spacing between the image and text */
+}
+
